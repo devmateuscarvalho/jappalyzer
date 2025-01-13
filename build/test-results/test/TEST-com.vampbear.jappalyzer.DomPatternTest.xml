@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.vampbear.jappalyzer.DomPatternTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-01-13T21:34:19" hostname="MATEUS" time="0.153">
+  <properties/>
+  <testcase name="shouldMatchSelectorWithExists" classname="com.vampbear.jappalyzer.DomPatternTest" time="0.146"/>
+  <testcase name="shouldBeApplicableToSelectorWithAttributes" classname="com.vampbear.jappalyzer.DomPatternTest" time="0.001"/>
+  <testcase name="shouldNotMatchSelectorWithText" classname="com.vampbear.jappalyzer.DomPatternTest" time="0.002"/>
+  <testcase name="shouldMatchOnEmptyAttribute" classname="com.vampbear.jappalyzer.DomPatternTest" time="0.002"/>
+  <testcase name="shouldNotMatchOnEmptyAttribute" classname="com.vampbear.jappalyzer.DomPatternTest" time="0.0"/>
+  <testcase name="shouldIgnoreDomPatternsWithProperties" classname="com.vampbear.jappalyzer.DomPatternTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

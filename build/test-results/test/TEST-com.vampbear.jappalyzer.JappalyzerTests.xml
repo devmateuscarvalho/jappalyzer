@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.vampbear.jappalyzer.JappalyzerTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-01-13T21:34:19" hostname="MATEUS" time="1.922">
+  <properties/>
+  <testcase name="twitterTest" classname="com.vampbear.jappalyzer.JappalyzerTests" time="0.406"/>
+  <testcase name="yandexTest" classname="com.vampbear.jappalyzer.JappalyzerTests" time="0.508"/>
+  <testcase name="sportConrodTest" classname="com.vampbear.jappalyzer.JappalyzerTests" time="0.287"/>
+  <testcase name="shouldReturnTechnologiesWithTwoLevelImplies" classname="com.vampbear.jappalyzer.JappalyzerTests" time="0.073"/>
+  <testcase name="queryMigrateMissTest" classname="com.vampbear.jappalyzer.JappalyzerTests" time="0.003"/>
+  <testcase name="baeldungTest" classname="com.vampbear.jappalyzer.JappalyzerTests" time="0.2"/>
+  <testcase name="shouldMatchMagento" classname="com.vampbear.jappalyzer.JappalyzerTests" time="0.19"/>
+  <testcase name="shouldDetectAbicartTechnology" classname="com.vampbear.jappalyzer.JappalyzerTests" time="0.003"/>
+  <testcase name="shouldReturnTechnologiesWithDirectImplies" classname="com.vampbear.jappalyzer.JappalyzerTests" time="0.118"/>
+  <testcase name="wordpressComTest" classname="com.vampbear.jappalyzer.JappalyzerTests" time="0.132"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

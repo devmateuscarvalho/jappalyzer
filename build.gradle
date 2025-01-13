@@ -1,0 +1,49 @@
+plugins {
+    id 'java'
+    id 'java-library'
+    id 'maven-publish'
+}
+
+version = '0.5.3'
+sourceCompatibility = 11
+targetCompatibility = 11
+
+repositories {
+    mavenCentral()
+}
+
+task fatJar(type: Jar) {
+    manifest {
+        attributes 'Main-Class': 'com.vampbear.jappalyzer.Main'
+    }
+    archiveClassifier.set("standalone")
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    with jar
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'com.vampbear'
+            artifactId = 'jappalyzer'
+            from components.java
+        }
+    }
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.json/json
+    implementation 'org.json:json:20211205'
+    // https://mvnrepository.com/artifact/org.jsoup/jsoup
+    implementation 'org.jsoup:jsoup:1.14.3'
+    // https://mvnrepository.com/artifact/commons-cli/commons-cli
+    implementation 'commons-cli:commons-cli:1.5.0'
+    // https://mvnrepository.com/artifact/junit/junit
+    testImplementation 'junit:junit:4.13.2'
+    // https://mvnrepository.com/artifact/org.apache.commons/commons-collections4
+    testImplementation group: 'org.apache.commons', name: 'commons-collections4', version: '4.4'
+    // https://mvnrepository.com/artifact/org.assertj/assertj-core
+    testImplementation 'org.assertj:assertj-core:3.22.0'
+}
