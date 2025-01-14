@@ -1,14 +1,13 @@
 package com.vampbear.jappalyzer;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.net.URL;
 import java.util.Set;
 
+// docker run -d -p 4444:4444 --shm-size=2g selenium/standalone-chrome
 public class JappalyzerRunner {
     public static void main(String[] args) {
         try {
