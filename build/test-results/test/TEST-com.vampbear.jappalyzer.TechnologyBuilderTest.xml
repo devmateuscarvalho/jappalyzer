@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.vampbear.jappalyzer.TechnologyBuilderTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2025-01-13T21:34:21" hostname="MATEUS" time="0.023">
+<testsuite name="com.vampbear.jappalyzer.TechnologyBuilderTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2025-01-14T13:25:40" hostname="DESKTOP-OTSL3VQ" time="0.014">
   <properties/>
-  <testcase name="shouldReturnTwoImpliesValues" classname="com.vampbear.jappalyzer.TechnologyBuilderTest" time="0.003"/>
-  <testcase name="shouldContainsPricing" classname="com.vampbear.jappalyzer.TechnologyBuilderTest" time="0.009"/>
+  <testcase name="shouldReturnTwoImpliesValues" classname="com.vampbear.jappalyzer.TechnologyBuilderTest" time="0.001"/>
+  <testcase name="shouldContainsPricing" classname="com.vampbear.jappalyzer.TechnologyBuilderTest" time="0.003"/>
   <testcase name="shouldContainsAttributesAtDomPattern" classname="com.vampbear.jappalyzer.TechnologyBuilderTest" time="0.001"/>
   <testcase name="shouldContainsBasicFields" classname="com.vampbear.jappalyzer.TechnologyBuilderTest" time="0.001"/>
-  <testcase name="shouldReturnSingleImpliesValue" classname="com.vampbear.jappalyzer.TechnologyBuilderTest" time="0.001"/>
+  <testcase name="shouldReturnSingleImpliesValue" classname="com.vampbear.jappalyzer.TechnologyBuilderTest" time="0.0"/>
   <testcase name="shouldContainsTwoDOMPatternsFromArray" classname="com.vampbear.jappalyzer.TechnologyBuilderTest" time="0.001"/>
-  <testcase name="shouldContainsSaas" classname="com.vampbear.jappalyzer.TechnologyBuilderTest" time="0.0"/>
-  <testcase name="shouldContainsOneDOMPatternFromString" classname="com.vampbear.jappalyzer.TechnologyBuilderTest" time="0.001"/>
+  <testcase name="shouldContainsSaas" classname="com.vampbear.jappalyzer.TechnologyBuilderTest" time="0.001"/>
+  <testcase name="shouldContainsOneDOMPatternFromString" classname="com.vampbear.jappalyzer.TechnologyBuilderTest" time="0.0"/>
   <testcase name="shouldReturnEmptyImplies" classname="com.vampbear.jappalyzer.TechnologyBuilderTest" time="0.0"/>
   <testcase name="shouldBeIncludedInTwoCategories" classname="com.vampbear.jappalyzer.TechnologyBuilderTest" time="0.001"/>
-  <testcase name="shouldContainsTwoDOMPatternsFromObject" classname="com.vampbear.jappalyzer.TechnologyBuilderTest" time="0.001"/>
-  <testcase name="shouldReadCPEFromTechDescription" classname="com.vampbear.jappalyzer.TechnologyBuilderTest" time="0.001"/>
-  <testcase name="shouldTechnologyHasTwoMetaGenerators" classname="com.vampbear.jappalyzer.TechnologyBuilderTest" time="0.002"/>
+  <testcase name="shouldContainsTwoDOMPatternsFromObject" classname="com.vampbear.jappalyzer.TechnologyBuilderTest" time="0.0"/>
+  <testcase name="shouldReadCPEFromTechDescription" classname="com.vampbear.jappalyzer.TechnologyBuilderTest" time="0.0"/>
+  <testcase name="shouldTechnologyHasTwoMetaGenerators" classname="com.vampbear.jappalyzer.TechnologyBuilderTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

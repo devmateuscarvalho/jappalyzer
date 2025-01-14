@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.vampbear.jappalyzer.DataLoaderTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-01-13T21:34:18" hostname="MATEUS" time="0.449">
+<testsuite name="com.vampbear.jappalyzer.DataLoaderTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-01-14T13:25:35" hostname="DESKTOP-OTSL3VQ" time="0.88">
   <properties/>
-  <testcase name="shouldLoadOneGroup" classname="com.vampbear.jappalyzer.DataLoaderTests" time="0.339"/>
-  <testcase name="shouldLoadSeveralGroups" classname="com.vampbear.jappalyzer.DataLoaderTests" time="0.11"/>
+  <testcase name="shouldLoadOneGroup" classname="com.vampbear.jappalyzer.DataLoaderTests" time="0.705"/>
+  <testcase name="shouldLoadSeveralGroups" classname="com.vampbear.jappalyzer.DataLoaderTests" time="0.175"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

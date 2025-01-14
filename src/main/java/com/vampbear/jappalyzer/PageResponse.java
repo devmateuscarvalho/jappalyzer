@@ -17,7 +17,6 @@ public class PageResponse {
     private Document document;
     private String origContent;
     private List<String> contentLines;
-
     private final List<String> scriptSources = new LinkedList<>();
     private final Map<String, List<String>> headers = new HashMap<>();
     private final Map<String, List<String>> cookies = new HashMap<>();

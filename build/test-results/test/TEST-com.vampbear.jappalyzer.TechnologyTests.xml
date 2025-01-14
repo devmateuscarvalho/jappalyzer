@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.vampbear.jappalyzer.TechnologyTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2025-01-13T21:34:21" hostname="MATEUS" time="0.013">
+<testsuite name="com.vampbear.jappalyzer.TechnologyTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2025-01-14T13:25:40" hostname="DESKTOP-OTSL3VQ" time="0.012">
   <properties/>
   <testcase name="serverHeaderTest" classname="com.vampbear.jappalyzer.TechnologyTests" time="0.001"/>
-  <testcase name="shouldMatchMetaWithEmptyPattern" classname="com.vampbear.jappalyzer.TechnologyTests" time="0.002"/>
+  <testcase name="shouldMatchMetaWithEmptyPattern" classname="com.vampbear.jappalyzer.TechnologyTests" time="0.001"/>
   <testcase name="cookieHeaderTest" classname="com.vampbear.jappalyzer.TechnologyTests" time="0.001"/>
-  <testcase name="emptyHeaderTest" classname="com.vampbear.jappalyzer.TechnologyTests" time="0.001"/>
+  <testcase name="emptyHeaderTest" classname="com.vampbear.jappalyzer.TechnologyTests" time="0.0"/>
   <testcase name="shouldMatchHTMLTemplate" classname="com.vampbear.jappalyzer.TechnologyTests" time="0.004"/>
   <testcase name="scriptTest" classname="com.vampbear.jappalyzer.TechnologyTests" time="0.001"/>
-  <testcase name="emptyHeaderPageLowerCaseTest" classname="com.vampbear.jappalyzer.TechnologyTests" time="0.001"/>
-  <testcase name="emptyCookieTechnologyTest" classname="com.vampbear.jappalyzer.TechnologyTests" time="0.0"/>
+  <testcase name="emptyHeaderPageLowerCaseTest" classname="com.vampbear.jappalyzer.TechnologyTests" time="0.0"/>
+  <testcase name="emptyCookieTechnologyTest" classname="com.vampbear.jappalyzer.TechnologyTests" time="0.001"/>
   <testcase name="shouldMatchWithHeader" classname="com.vampbear.jappalyzer.TechnologyTests" time="0.001"/>
-  <testcase name="emptyHeaderTechnologyLowerCaseTest" classname="com.vampbear.jappalyzer.TechnologyTests" time="0.0"/>
+  <testcase name="emptyHeaderTechnologyLowerCaseTest" classname="com.vampbear.jappalyzer.TechnologyTests" time="0.001"/>
   <testcase name="shouldMatchWithMeta" classname="com.vampbear.jappalyzer.TechnologyTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
